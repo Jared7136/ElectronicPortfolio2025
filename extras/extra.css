@@ -4,7 +4,7 @@ body {
 }
 
 /* navbar */
-ul {
+ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ li {
   float: left;
 }
 
-li a {
+li.navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -35,12 +35,12 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li.navbar a:hover:not(.active) {
   background-color: grey;
   color: black;
 }
 
-.active {
+li a.active {
   background-color: white;
   color: black;
 }
@@ -49,6 +49,10 @@ li a:hover:not(.active) {
 #nav {
 	height: 50px;
 	width: 100%;
+}
+
+h1 {
+  text-align: center;
 }
 
 /* contacts */
