@@ -4,7 +4,7 @@ body {
 }
 
 /* navbar */
-ul.navbar {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ li {
   float: left;
 }
 
-li.navbar a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -35,7 +35,7 @@ li.navbar a {
   text-decoration: none;
 }
 
-li.navbar a:hover:not(.active) {
+li a:hover:not(.active) {
   background-color: grey;
   color: black;
 }
@@ -51,10 +51,6 @@ li a.active {
 	width: 100%;
 }
 
-h1 {
-  text-align: center;
-}
-
 /* contacts */
 #bottom {
 	background-color: #bababa;
@@ -62,7 +58,7 @@ h1 {
 }
 
 .contact {
-	color:  #black;
+	color:  black;
 	display:  inline-block;
 }
 
